@@ -81,6 +81,7 @@ nav a {
 table {
     border-collapse: collapse;
     border-radius: 1rem;
+    margin: 1rem;
 }
 
 th, td {
