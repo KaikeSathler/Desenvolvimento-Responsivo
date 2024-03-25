@@ -62,7 +62,7 @@ nav a {
     justify-content: center;
 }
 
-.section-flex img {
+.image-title {
     width: 30%;
     margin: 4rem;
 }
@@ -77,6 +77,22 @@ nav a {
 .video video {
     margin: 4rem;
 }
+
+table {
+    border-collapse: collapse;
+    border-radius: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+td, th {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+
 
 @media screen and (max-width: 480px) {
     .image {
@@ -103,5 +119,13 @@ nav a {
     }
     .video video {
         width: 93% !important;
+    }
+
+    td img {
+        width: 50% !important;
+    }
+
+    h1 {
+        font-size: 1rem;
     }
 }
