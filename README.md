@@ -13,5 +13,5 @@ $ npm install
 $ npm run dev
 ```
 
-##[Site, Acesse aqui!]
+## Site, Acesse aqui!
 (https://breakingmal.netlify.app/)
