@@ -1,7 +1,16 @@
 # vue-project
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto web foi desenvolvido com base na disciplina Desenvolvimento Responsivo e Otimização WEB.
 
-## Recommended IDE Setup
+## Criando uma aplicação em Vue
+```sh
+$ npm create vue@latest
+```
+## Iniciando o projeto
+```sh
+$ cd <your-project-name>
+$ npm install
+$ npm run dev
+```
 
-Kaike Site Acesse aqui](https://breakingmal.netlify.app/)
+##[Site, Acesse aqui!](https://breakingmal.netlify.app/)
