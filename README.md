@@ -12,6 +12,7 @@ $ cd <your-project-name>
 $ npm install
 $ npm run dev
 ```
+> Note: É necesssario ter o `--Node` Intalado.
 
 ## Site, Acesse aqui!
 (https://breakingmal.netlify.app/)
