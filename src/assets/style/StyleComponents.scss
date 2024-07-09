@@ -1,0 +1,189 @@
+$color_1: rgb(56, 56, 56);
+$color_2: white;
+$color_3: rgb(13, 68, 58);
+$gradient: linear-gradient(90deg, rgba(13, 68, 58, 1) 0%, rgba(0, 108, 31, 1) 100%);
+
+nav {
+  background: $color_3;
+  background: $gradient;
+  width: 100%;
+  ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    align-items: center;
+  }
+  li {
+    list-style: none;
+    color: $color_2;
+  }
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.8rem;
+    margin: 0.2rem;
+  }
+  a:hover {
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.233);
+  }
+}
+
+footer {
+  background: $color_3;
+  background: $gradient;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  a {
+    padding: 1rem;
+    color: $color_2;
+  }
+}
+
+.section-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .image-logo {
+    width: 30%;
+    margin: 4rem;
+  }
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video video {
+  margin: 4rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 1rem;
+}
+
+footer {
+  background: rgb(13, 68, 58);
+  background: linear-gradient(90deg, rgba(13, 68, 58, 1) 0%, rgba(0, 108, 31, 1) 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer span {
+  padding: 1rem;
+}
+
+fieldset {
+  border: 1px solid rgb(185, 185, 185);
+  margin: 1rem;
+}
+
+.image-title {
+  width: 30%;
+  margin: 4rem;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video video {
+  margin: 4rem;
+}
+
+.image {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 1rem;
+  font-size: larger;
+  text-align: center;
+  h2 {
+    color: rgb(75, 75, 75);
+    font-weight: 500;
+    span {
+      font-family: Heart;
+    }
+    #bad {
+      font-family: Heart;
+    }
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .image {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  nav {
+    a {
+      padding: 0.6rem;
+      font-size: medium;
+    }
+    ul {
+      padding: 0;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  }
+  .image-logo {
+    width: 60% !important;
+    margin: 2rem !important;
+  }
+
+  .image img {
+    width: 70%;
+  }
+
+  .image-title {
+    width: 40dvw;
+    margin: 10%;
+  }
+
+  .title h1 {
+    font-size: 1.5rem;
+  }
+
+  .title h2 {
+    font-size: 1rem;
+  }
+  .video video {
+    width: 93% !important;
+  }
+
+  td img {
+    width: 50% !important;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}

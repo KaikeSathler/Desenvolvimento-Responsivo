@@ -1,0 +1,32 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: Heart;
+  src: url(../fonts/Heart\ Breaking\ Bad.otf);
+}
+
+.html {
+  margin: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+  width: 100%;
+}
+
+#main_container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+span {
+  color: white;
+  text-decoration: none;
+}
