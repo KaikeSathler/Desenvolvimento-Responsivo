@@ -7,7 +7,7 @@ https://breakingmal.netlify.app/
 
 ## Criando uma aplicação em Vue
 ```sh
-$ npm create vue@latest
+npm create vue@latest
 ```
 ## Iniciando o projeto
 ```sh
