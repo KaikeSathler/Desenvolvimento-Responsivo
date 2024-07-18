@@ -3,7 +3,7 @@
 Este projeto web foi desenvolvido com base na disciplina Desenvolvimento Responsivo e Otimização WEB.
 
 ## Site, Acesse aqui!
-https://breakingmal.netlify.app/
+https://desenvolvimento-responsivo.vercel.app/
 
 ## Criando uma aplicação em Vue
 ```sh
