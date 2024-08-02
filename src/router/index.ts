@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NotFound from '@/views/NotFoud.vue'
-import TopCenas from '@/components/TopCenas.vue'
+import TopCenas from '@/views/TopCenas.vue'
+import Videos from '@/views/Videos.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +23,11 @@ const router = createRouter({
       path: '/topcenas',
       name: 'topcenas',
       component: TopCenas
+    },
+    {
+      path: '/videos',
+      name: 'videos',
+      component: Videos
     }
   ]
 })

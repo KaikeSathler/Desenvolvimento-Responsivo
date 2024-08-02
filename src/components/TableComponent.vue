@@ -6,9 +6,6 @@ export default {
 </script>
 <template>
   <section>
-    <div class="section-flex">
-      <img class="image-logo" src="/image/Breaking_Bad_logo.svg.png" alt="" />
-    </div>
   </section>
   <section style="flex-direction: column" class="section-flex">
     <table cellspacing="0">

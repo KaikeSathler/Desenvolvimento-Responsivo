@@ -34,8 +34,9 @@ footer {
   background: $gradient;
   width: 100%;
   display: flex;
+  position: relative;
   justify-content: center;
-  a {
+  span {
     padding: 1rem;
     color: $color_2;
   }
@@ -80,17 +81,6 @@ th {
   border-radius: 1rem;
 }
 
-footer {
-  background: rgb(13, 68, 58);
-  background: linear-gradient(90deg, rgba(13, 68, 58, 1) 0%, rgba(0, 108, 31, 1) 100%);
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-footer span {
-  padding: 1rem;
-}
-
 fieldset {
   border: 1px solid rgb(185, 185, 185);
   margin: 1rem;
@@ -99,6 +89,10 @@ fieldset {
 .image-title {
   width: 30%;
   margin: 4rem;
+}
+
+.image img {
+  width: 32%;
 }
 
 .video {
@@ -118,6 +112,9 @@ fieldset {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .title {
@@ -140,7 +137,7 @@ fieldset {
   .image {
     flex-direction: column;
     width: 100%;
-    margin: 0;
+    margin: 1rem 0;
   }
 
   nav {
