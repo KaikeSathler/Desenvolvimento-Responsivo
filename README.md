@@ -15,4 +15,4 @@ $ cd <your-project-name>
 $ npm install
 $ npm run dev
 ```
-> Nota: É necesssario ter o `Node` Intalado, [Node.js](https://nodejs.org/pt).
+> Nota: É necesssario ter o `Node` Instalado, [Node.js](https://nodejs.org/pt).
