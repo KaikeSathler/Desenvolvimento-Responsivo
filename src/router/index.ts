@@ -12,13 +12,6 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-
-    {
-      path: '/:catchAll(.*)',
-      name: 'notfound',
-      component: NotFound
-    },
-
     {
       path: '/topcenas',
       name: 'topcenas',
@@ -28,6 +21,11 @@ const router = createRouter({
       path: '/videos',
       name: 'videos',
       component: Videos
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'notfound',
+      component: NotFound
     }
   ]
 })
