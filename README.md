@@ -1,18 +1,4 @@
-# vue-project
+# google-ai-studio
+Projeto ChatBot, consumindo API do Gemini IA Studio
 
-Este projeto web foi desenvolvido com base na disciplina Desenvolvimento Responsivo e Otimização WEB.
-
-## Site, Acesse aqui!
-https://desenvolvimento-responsivo.vercel.app/
-
-## Criando uma aplicação em Vue
-```sh
-npm create vue@latest
-```
-## Iniciando o projeto
-```sh
-$ cd <your-project-name>
-$ npm install
-$ npm run dev
-```
-> Nota: É necesssario ter o `Node` Instalado, [Node.js](https://nodejs.org/pt).
+![](https://github.com/KaikeSathler/google-ai-studio/blob/main/assets/preview.png)
