@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
 import NotFound from '@/views/NotFoud.vue'
 import TopCenas from '@/views/TopCenas.vue'
 import Videos from '@/views/Videos.vue'
