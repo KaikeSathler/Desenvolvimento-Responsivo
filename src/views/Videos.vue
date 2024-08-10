@@ -2,6 +2,6 @@
 import VideoComponent from '@/components/VideoComponent.vue'
 </script>
 
-<templade>
+<template>
       <VideoComponent />
-</templade>
+</template>
