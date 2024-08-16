@@ -5,10 +5,23 @@ import HeaderComponent from '@/components/HeaderComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 </script>
 
+<script lang="ts">
+  export default {
+    data() {
+      return {
+        created: false
+      }
+    } ,
+    mounted() {
+      this.created = true
+    }
+  }
+</script>
+
 <template>
-  <div id="main_container">
     <HeaderComponent />
-    <RouterView style="flex-grow: 1" />
-    <FooterComponent />
-  </div>
+    <div class="View">
+      <RouterView style="flex-grow: 1" />
+    </div>
+    <FooterComponent v-if="created" />
 </template>

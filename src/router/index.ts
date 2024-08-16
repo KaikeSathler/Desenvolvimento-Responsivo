@@ -1,31 +1,28 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
-import NotFound from '@/views/NotFoud.vue'
-import TopCenas from '@/views/TopCenas.vue'
-import Videos from '@/views/Videos.vue'
+import { createRouter , createWebHistory} from 'vue-router'
 
 const router = createRouter({
+  mode: "history",
   history: createWebHistory(),
   routes: [
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: () => import("../views/HomeView.vue")
     },
     {
       path: '/topcenas',
       name: 'topcenas',
-      component: TopCenas
+      component: () => import("../views/TopCenas.vue")
     },
     {
       path: '/videos',
       name: 'videos',
-      component: Videos
+      component: () => import("../views/Videos.vue")
     },
     {
       path: '/:pathMatch(.*)*',
       name: 'notfound',
-      component: NotFound
+      component: () => import("../views/NotFoud.vue")
     }
   ]
 })
