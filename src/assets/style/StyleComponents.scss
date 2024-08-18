@@ -2,6 +2,15 @@ $color_1: rgb(56, 56, 56);
 $color_2: white;
 $color_3: rgb(13, 68, 58);
 $gradient: linear-gradient(90deg, rgba(13, 68, 58, 1) 0%, rgba(0, 108, 31, 1) 100%);
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+
+.nav-content {
+  background: $color_3;
+  background: $gradient;
+  padding: 0.5rem;
+  display: none;
+}
 
 nav {
   background: $color_3;
@@ -25,7 +34,25 @@ nav {
   }
   a:hover {
     opacity: 0.9;
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: rgba(255, 255, 255, 0.178);
+  }
+
+}
+
+.navbar-button {
+  display:none;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-menu.open {
+  height: auto;
+  display: block;
+  flex-direction: column; 
+  display: flex;
+  align-items: flex-start;
+  a {
+    background-color: rgba(66, 168, 105, 0.568);
   }
 }
 
@@ -82,10 +109,6 @@ th {
   border-radius: 1rem;
 }
 
-fieldset {
-  border: 1px solid rgb(185, 185, 185);
-  margin: 1rem;
-}
 
 .image-title {
   width: 30%;
@@ -134,22 +157,57 @@ fieldset {
   }
 }
 
+@media screen and (min-width: 608px) {
+  .nav-menu.open {
+    flex-direction: row;
+    margin: 0;
+    a {
+      background-color:transparent;
+    }
+    a:hover {
+        opacity: 0.9;
+        background-color: rgba(255, 255, 255, 0.178);
+    }
+  }
+}
+
 @media screen and (max-width: 608px) {
+
+.nav-menu.open {
+  position: absolute;
+  z-index: 2;
+  a {
+    background-color: $color_3;
+  }
+}
+
   .image {
     flex-direction: column;
     width: 100%;
     margin: 1rem 0;
   }
 
+  .navbar-button {
+    display: block;
+  }
+
+  .nav-content {
+    display: flex;
+  }
+
   nav {
+    background: transparent;
     a {
-      padding: 0.6rem;
+      padding: 0.8rem;
       font-size: medium;
+      width: 7rem;
+      margin: 0;
     }
     ul {
-      padding: 0;
+      padding: 0rem;
       justify-content: center;
-      gap: 0.5rem;
+      gap: 0px;
+      display: none;
     }
   }
   .image-logo {
