@@ -1,6 +1,6 @@
 # vue-project
 
-Este projeto web foi desenvolvido com base na disciplina Desenvolvimento Responsivo e Otimização WEB.
+Este projeto web foi desenvolvido com base na disciplina Desenvolvimento WEB Responsivo e Otimização de sites.
 
 ## Site, Acesse aqui!
 https://desenvolvimento-responsivo.vercel.app/
