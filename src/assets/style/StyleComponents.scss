@@ -115,7 +115,7 @@ th {
 }
 
 .image img {
-  width: 32%;
+  width: 400px;
 }
 
 .video {
@@ -142,18 +142,7 @@ th {
 
 .title {
   margin: 1rem;
-  font-size: larger;
   text-align: center;
-  h2 {
-    color: rgb(75, 75, 75);
-    font-weight: 500;
-    span {
-      font-family: Heart;
-    }
-    #bad {
-      font-family: Heart;
-    }
-  }
 }
 
 @media screen and (min-width: 608px) {

@@ -19,7 +19,7 @@ function toggleMenu() {
     </div>
     <ul :class="{ 'nav-menu': true, 'open': isMenuOpen }">
       <router-link to="/">Páginas Inicial</router-link>
-      <router-link to="topcenas">Top Cenas</router-link>
+      <router-link to="topcenas">Top Cenas 4K</router-link>
       <router-link to="videos">Videos</router-link>
       <router-link to="sobre">Sobre</router-link>
     </ul>
