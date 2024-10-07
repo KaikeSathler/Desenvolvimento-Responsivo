@@ -1,6 +1,10 @@
 <script lang="ts">
+import { Image as ImageComponent } from "@imageengine/vue"
 export default {
-  name: 'TopCenasComponents'
+  name: 'TopCenasComponents',
+  components: {
+    ImageComponent
+  }
 }
 </script>
 <template>
@@ -9,11 +13,11 @@ export default {
     <img width="100px" src="/image/Breaking_Bad_logo.svg.png">
   </div>
   <div class="image">
-    <img src="/image/Breaking-Bad-1.webp" loading="lazy" />
-    <img src="/image/1_gDOd2Hy.jpg" loading="lazy" />
-    <img src="/image/1516367128_442397_1516372173_album_normal.jpg" loading="lazy" />
-    <img src="/image/image3.jpg" loading="lazy" />
-    <img src="/image/image4.jpg" loading="lazy" />
+    <img src="https://ysxd28qp.cdn.imgeng.in/image/Breaking-Bad-1.webp?imgeng=/f_webp" loading="lazy" />
+    <img src="https://ysxd28qp.cdn.imgeng.in/image/1_gDOd2Hy.jpg?imgeng=/f_webp" loading="lazy" />
+    <img src="https://ysxd28qp.cdn.imgeng.in/image/1516367128_442397_1516372173_album_normal.jpg?imgeng=/f_webp" loading="lazy" />
+    <img src="https://ysxd28qp.cdn.imgeng.in/image/image3.jpg?imgeng=/f_webp" loading="lazy" />
+    <img src="https://ysxd28qp.cdn.imgeng.in/image/image4.jpg?imgeng=/f_webp" loading="lazy" />
   </div>
   <hr>
   <div class="saulgoodman">
@@ -22,9 +26,9 @@ export default {
       <img width="100px" src="/picture/logo.svg" alt="logo">
     </div>
     <div class="image">
-      <img src="/picture/1356206.jpeg" loading="lazy" />
-      <img src="/picture/1231125.jpg" loading="lazy" />
-      <img src="/picture/1231174.jpg" loading="lazy" />
+      <img src="https://ysxd28qp.cdn.imgeng.in/picture/1356206.jpeg?imgeng=/f_webp" loading="lazy" />
+      <img src="https://ysxd28qp.cdn.imgeng.in/picture/1231125.jpg?imgeng=/f_webp" loading="lazy" />
+      <img src="https://ysxd28qp.cdn.imgeng.in/picture/1231174.jpg?imgeng=/f_webp" loading="lazy" />
     </div>
   </div>
 </template>

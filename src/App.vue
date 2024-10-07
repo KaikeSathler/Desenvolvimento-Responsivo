@@ -21,7 +21,7 @@ import FooterComponent from '@/components/FooterComponent.vue'
 <template>
     <HeaderComponent />
     <div class="View">
-      <RouterView />
+        <RouterView />
     </div>
     <FooterComponent v-if="created" />
 </template>
